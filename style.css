@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    font-family: 'Open Sans', sans-serif; 
+}
+.navbar{
+    background-color: #17494D;
+}
+.navbar-brand img{
+    margin-left: 56px;
+    /* width: 116px; */
+    height: 4.875rem;
+    transition: all 0.3s ease 0s;
+}
+.nav-item{
+    margin: 0px 36px;
+}
+span{
+    font-family: 'Open Sans', sans-serif;
+    Color:#FFFFFF;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+}
+.btn{
+    font-size: 16px;
+    padding: 8px 12px ;
+    color: #FFFFFF;
+    margin-right: 60px;
+    transition: all 0.3s ease 0s;
+}
+.banner{
+    padding-right: 30px;
+    background: #398AB9 url('images/child.png');
+	background-repeat: no-repeat;
+	background-position: right; 
+	background-size: contain;
+	height: calc(100vh - 4.875rem);
+}
+.banner-content{
+    background-color: #FFFFFF;
+    width: 30%;
+    border-radius: 8px;
+    position: relative;
+    top: 25%;
+    left: 45%;
+}
+.banner-content img{
+    width: 100px;
+    height: 60px;
+    display: inline;
+    margin: 0px auto;
+}
+.heading1{
+    margin-top: 130px;
+    margin-left: 96px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+}
+.lorem{
+    margin-left: 96px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+}
+.section1{
+    margin: 100px 56px;
+}
+.section1-heading1{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+}
+        /* cards */
+.desktop-card {
+    /* height: 320px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    transition: transform 250ms;  
+}
+.desktop-card:hover {
+        transform: translateY(-10px);
+        background-color: #17494D;
+        color:#FFFFFF;
+}
+.card-icon{
+    width: 122px;
+}
+.card-title,
+#testimonial-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+}
+.card-text{
+    font-size: 16px;
+}
+.testimonial-content{
+    border-radius: 8px;
+    background: rgba(23, 73, 77, 0.6);
+}
+.testimonial-content img{
+    height: 30px;
+}
+.ravi img{
+    height: 60px;
+    float: left;
+    margin-right: 20px;
+}
+#a1,
+#a2,
+#a3,
+#a4{
+    background: #17494D;
+    color:#FFFFFF;
+    border-radius: 8px;
+}
+#b1:hover,
+#b2:hover,
+#b3:hover,
+#b4:hover{
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #1e565a;
+    color: #FFFFFF;
+}
+/* mobile version CSS */
+.mb-crd-img{
+    margin-top: 15px;
+    width: 122px;
+    height: 105px;
+}
+.hr-card{
+    width: 80%;
+    margin: auto;
+}
+.mb-testimonial{
+    color: #FFFFFF;
+    background-color: #17494D;
+}
+.mb-testimonial-img{
+    height: 30px;
+}
+.mobile-banner{
+    background-image: url("images/mobilebanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 84vh;
+    width: 100vw;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand img{
+        margin: 10px;
+        height: 4.875rem; 
+    }
+  }
